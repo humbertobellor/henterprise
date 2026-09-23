@@ -68,6 +68,17 @@ The executive persona is the natural soul for this configuration — every other
 cp executive/SOUL.md ~/.hermes/SOUL.md
 ```
 
+When one executive session needs genuinely separate workers or an independent reviewer, use Hermes'
+native `delegate_task` path rather than simulating several roles in the main conversation.
+`enterprise/technology/parallel-agent-delivery` defines when child agents may run concurrently and
+how changed dependencies or shared contracts are returned to affected workers.
+`enterprise/executive/agent-hierarchy` defines the producer/reviewer split, including a fresh
+reviewer child that inspects the underlying artifact and returns blocking findings for correction and
+independent re-review.
+
+This is a task-scoped delegated mode. It does not turn a delegated child into one of the persistent
+profiles below; use separate profiles when a department needs long-lived isolated Hermes state.
+
 ### One profile per department
 
 Each department folder is a staged Hermes profile. Its `README.md` carries the exact commands; the
