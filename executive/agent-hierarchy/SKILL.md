@@ -76,7 +76,8 @@ Do not start writing charters early; the order is the method.
 
 A reviewer is a distinct delegated child, not a second pass by the producer or orchestrator.
 
-1. Let the producing child finish and preserve the artifact it created.
+1. Let the producing child finish and preserve the artifact it created. Record an immutable locator,
+   revision, checksum, or pre-review diff for the exact material the reviewer will inspect.
 2. Start a **new** `delegate_task` call for the reviewer. Give it the artifact/workspace location,
    the review question, acceptance criteria, and the relevant reviewer-class skill to load. For
    security work use `enterprise/security/security-architecture-review`; use the matching
@@ -85,11 +86,16 @@ A reviewer is a distinct delegated child, not a second pass by the producer or o
    underlying artifact and supporting evidence itself. It must not modify the artifact under review;
    it returns findings to the orchestrator.
 4. Require a structured return with what was inspected, `clean | non-blocking | blocking`, concrete
-   findings, evidence, and the required correction or escalation.
-5. A blocking finding goes back to the responsible builder for correction. After correction, spawn a
+   findings, evidence, and the required correction or escalation. Where practical, use
+   `delegate_task`'s `output_schema` so the return shape is machine-checkable without turning the
+   reviewer judgment itself into a deterministic rule.
+5. After the reviewer returns, verify that the artifact revision/checksum/diff recorded in step 1 did
+   not change during review. A mutation invalidates that review: restore or preserve the intended
+   artifact and run a fresh reviewer child.
+6. A blocking finding goes back to the responsible builder for correction. After correction, spawn a
    **fresh reviewer child** and inspect the corrected artifact again. The producer cannot clear its
    own finding.
-6. Where the reviewer-class skill permits explicit executive risk acceptance, route that decision to
+7. Where the reviewer-class skill permits explicit executive risk acceptance, route that decision to
    `enterprise/executive/chief-executive`; risk acceptance does not rewrite the reviewer's finding.
 
 Hermes delegated children are task-scoped agents with fresh conversations. This mode deliberately
@@ -130,6 +136,7 @@ that as the worked example of the format.
 - Letting the same agent produce and audit. It will approve itself.
 - Passing only the producer's summary to a reviewer instead of the underlying artifact/evidence.
 - Letting a reviewer repair the artifact it is judging, which collapses producer/auditor separation.
+- Accepting a review after the inspected artifact changed underneath it.
 - Running `agent-guard.mjs diff` after the orchestrator has committed, when the authorship it
   checks is already gone.
 
@@ -146,10 +153,11 @@ proves a given change obeyed the map, and must run while the work is still attri
 the orchestrator commits. Wire both into CI; a guard that does not run in CI is documentation.
 
 For an executed Hermes hierarchy, also preserve the child-return evidence: which builder produced
-the artifact, which separate reviewer inspected it, the review outcome, and any correction → fresh
-re-review loop. If the same child identity produced and reviewed the work, or a blocking finding was
-cleared without correction/re-review or explicit executive risk acceptance, the hierarchy did not
-satisfy its own independence contract.
+the artifact, which separate reviewer inspected it, the immutable locator/revision/checksum used for
+that review, the review outcome, the post-review no-mutation check, and any correction → fresh
+re-review loop. If the same child identity produced and reviewed the work, the artifact changed
+unaccounted-for during review, or a blocking finding was cleared without correction/re-review or
+explicit executive risk acceptance, the hierarchy did not satisfy its own independence contract.
 
 Report the roster with each agent's class, remit, and globs; the surface map file; the guard output
 for both modes; and any path deliberately left unowned, named as such.
