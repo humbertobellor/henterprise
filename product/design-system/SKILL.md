@@ -2,7 +2,7 @@
 name: design-system
 description: "Builds and maintains the design system. Tokens for color, type, spacing and elevation, component contracts, and the rules that keep them coherent as the product grows. Use this when starting a new interface, when screens have drifted apart visually, when the same component exists three times in slightly different forms, or when a token or component needs adding without breaking what exists."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: product

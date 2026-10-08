@@ -2,7 +2,7 @@
 name: scenario-planning
 description: "Plans under genuine uncertainty. Builds scenarios, identifies which assumptions are load-bearing, sets early-warning indicators, and stress-tests a plan against futures rather than forecasting one. Use this when a decision depends on something unknowable, when a plan assumes conditions that may not hold, before a large irreversible commitment, or when a market, regulatory, or technology shift could invalidate the strategy."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: corporate-strategy

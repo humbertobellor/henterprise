@@ -2,7 +2,7 @@
 name: chief-legal-and-risk-officer
 description: "Owns legal, compliance, privacy, and enterprise risk. Plus contracts, intellectual property, security governance, and audit readiness. Use this to review a contract or commitment, assess regulatory or privacy exposure, evaluate an IP or licensing question, judge the risk in a business decision, prepare for an audit or certification, or when a plan may create obligations the business cannot meet. Also use to decide whether a risk should be accepted, mitigated, or refused."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: legal-risk

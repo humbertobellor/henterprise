@@ -2,7 +2,7 @@
 name: onboarding-and-offboarding
 description: "Designs the joining and leaving experience. First-day readiness, ramp to productivity, knowledge capture, and clean exits. Use this to design or fix onboarding, shorten time to productivity, structure a leaver process, capture knowledge before someone leaves, or coordinate the access and asset steps around a joiner or leaver."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: people

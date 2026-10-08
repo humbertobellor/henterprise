@@ -2,7 +2,7 @@
 name: corporate-governance
 description: "Maintains the corporate record and governance machinery. Entity records, board and committee support, resolutions and minutes, delegations of authority, insurance, and business continuity. Use this to prepare board or committee materials, record a decision that needs to be minuted, set or check approval authority, review insurance and continuity coverage, establish a retention policy, or work out where a responsibility belongs when it falls between functions."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: legal-risk

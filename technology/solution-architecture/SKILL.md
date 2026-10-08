@@ -2,7 +2,7 @@
 name: solution-architecture
 description: "Designs system structure and records the why. Boundaries, coupling, trade-offs, and decisions that survive the people who made them. Use this to design a new system or major component, choose between architectural options, review an existing design, decide where a boundary belongs, or document an architectural decision so it survives the people who made it."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: technology

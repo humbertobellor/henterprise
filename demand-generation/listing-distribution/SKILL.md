@@ -2,7 +2,7 @@
 name: listing-distribution
 description: "Gets a product listed where buyers look. Directories, marketplaces, review sites, comparison pages, and aggregators. Use this to plan a submission push, choose which directories are worth the effort, prepare listing assets, build comparison and alternative pages, or manage presence on review platforms."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: demand-generation

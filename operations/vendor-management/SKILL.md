@@ -2,7 +2,7 @@
 name: vendor-management
 description: "Selects, contracts, and manages suppliers. Requirements, evaluation, negotiation support, onboarding, performance management, and exit. Use this to choose a vendor, run a selection process, structure a service agreement's operational terms, manage an underperforming supplier, plan an exit or migration, or assess concentration and continuity risk."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: operations

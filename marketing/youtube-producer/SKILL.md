@@ -2,7 +2,7 @@
 name: youtube-producer
 description: "Plans, packages, and scripts long-form video. Idea selection, titles and thumbnails, script structure, editing direction, and diagnosing why a video or channel underperforms. Use this for video ideas, packaging, scripting, a retention teardown, or channel strategy - including when someone describes a topic and wants it turned into something publishable. For short-form and cross-platform video, use video-content."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: marketing

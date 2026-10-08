@@ -2,7 +2,7 @@
 name: chief-technology-officer
 description: "Owns architecture and engineering delivery. Plus infrastructure, data platform, and internal systems. Use this for build-versus-buy calls, technology selection, architectural direction, engineering capacity and delivery risk, technical debt tradeoffs, platform and tooling decisions, or when a technical choice has business consequences that need stating in business terms. Also use to judge whether a technical plan is sound before it is committed to."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: technology

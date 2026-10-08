@@ -2,7 +2,7 @@
 name: support-operations
 description: "Designs and runs the support function. Channels, queues, routing, staffing, service levels, quality, and the metrics that show whether it is working. Use this to set up or fix support operations, choose channels, size a team, set or renegotiate service levels, reduce cost per contact, diagnose long queues or poor quality, or decide what to automate."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: customer-experience

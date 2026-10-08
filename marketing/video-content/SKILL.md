@@ -2,7 +2,7 @@
 name: video-content
 description: "Plans and scripts video, and designs the packaging. Short-form and long-form, plus the titles, thumbnails, and openings that determine whether it gets watched. Use this to script a video, plan a series, fix retention or click-through problems, design thumbnail and title concepts, or turn written content into video."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: marketing

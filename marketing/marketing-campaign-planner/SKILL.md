@@ -2,7 +2,7 @@
 name: marketing-campaign-planner
 description: "Designs a multi-channel campaign around one story. Objective, message, channel sequencing, timeline, assets, and the checklist that gets it out the door. Use this to plan a launch or campaign, sequence a go-to-market push, pressure-test a campaign before committing budget, or turn a product change into a coordinated set of activity. For ongoing channel programs rather than a bounded push, use marketing-planning."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: marketing

@@ -2,7 +2,7 @@
 name: branch-and-worktree-workflow
 description: "Isolates feature work and integrates it cleanly. Branches and worktrees for parallel efforts, and the merge, rebase, or split when the work is done. Use this when starting work that should not disturb the current workspace, when several efforts must proceed in parallel on one repository, or when implementation is finished and the change needs merging, rebasing, or splitting for review."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: technology

@@ -2,7 +2,7 @@
 name: revenue-recognition
 description: "Determines when and how revenue is recognized. Performance obligations, contract terms that change the answer, and the deal structures that create accounting problems. Use this to work out how a contract should be recognized, review a non-standard deal before it is signed, understand deferred revenue, or spot terms that would delay or reverse recognition."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: finance

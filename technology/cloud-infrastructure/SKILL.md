@@ -2,7 +2,7 @@
 name: cloud-infrastructure
 description: "Designs and runs cloud infrastructure. Environments, infrastructure as code, networking and isolation, scaling, and cost. Use this to design a cloud environment, control infrastructure spend, set up environment separation, plan for scale or region failure, or review infrastructure someone configured by hand."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: technology

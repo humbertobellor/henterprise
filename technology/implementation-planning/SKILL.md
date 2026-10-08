@@ -2,7 +2,7 @@
 name: implementation-planning
 description: "Turns a spec into a plan another session can run. And drives that plan through review checkpoints. Use this before touching code on any multi-step task, when work needs handing to someone else, when a task keeps sprawling mid-implementation, or when a plan exists and needs executing in order with verification between steps."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: technology

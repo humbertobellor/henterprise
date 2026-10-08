@@ -2,7 +2,7 @@
 name: compensation-and-leveling
 description: "Builds the leveling framework and pay structure. Level definitions, salary bands, benchmarking, pay equity, and how raises and promotions are decided. Use this to design or revise leveling, set or adjust salary bands, benchmark against market, handle a compensation request or counteroffer, run a review cycle, or diagnose pay compression and equity issues."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: people

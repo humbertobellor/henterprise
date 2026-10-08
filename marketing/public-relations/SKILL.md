@@ -2,7 +2,7 @@
 name: public-relations
 description: "Plans and executes earned media. Press strategy, journalist outreach, announcements, commentary, and crisis response. Use this to plan a press push, write a pitch or release, find and approach the right journalists, prepare for an interview, decide whether something is newsworthy, or respond to a story going badly."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: marketing

@@ -2,7 +2,7 @@
 name: chief-marketing-officer
 description: "Owns brand, demand, content, and communications. And how the market understands what the business does. Use this to set marketing strategy, allocate budget across channels, decide positioning and messaging, judge whether a campaign is worth running, diagnose why demand has stalled, or arbitrate between brand-building and short-term acquisition. Also use to decide which marketing work to stop."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: marketing

@@ -2,7 +2,7 @@
 name: app-store-optimization
 description: "Improves App Store and Google Play performance. Metadata, keywords, screenshots, ratings, and the listing experience that turns an impression into an install. Use this to audit or optimize an app listing, plan a launch listing, diagnose poor install conversion, or improve store search visibility."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: demand-generation

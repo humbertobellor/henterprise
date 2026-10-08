@@ -2,7 +2,7 @@
 name: lead-capture
 description: "Converts anonymous traffic into known contacts. Lead magnets, gated content, free tools, popups, and the forms behind them. Use this to design or improve a lead magnet, plan a free tool, add or fix popups and overlays, improve form conversion, or decide what is worth gating and what should stay open."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: demand-generation

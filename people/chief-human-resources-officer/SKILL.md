@@ -2,7 +2,7 @@
 name: chief-human-resources-officer
 description: "Owns the organization itself. Org design, hiring, performance, compensation, development, culture, and employee relations. Use this to design or restructure a team, plan hiring, write a role or leveling definition, handle a performance or compensation question, diagnose why a team is underperforming for non-technical reasons, or assess the people risk in a plan. Also use for onboarding design and retention of key staff."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: people

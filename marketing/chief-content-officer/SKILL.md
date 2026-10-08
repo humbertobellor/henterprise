@@ -2,7 +2,7 @@
 name: chief-content-officer
 description: "Runs content as an operation. The production pipeline, editorial calendar, repurposing engine, competitive content intelligence, and audits of what already exists. Use this to build or fix a content production system, plan a calendar, decide how one piece becomes many, rank content ideas by expected impact, or audit an existing library for what to update, consolidate, or retire. For deciding what territory to own and why, use content-strategy first."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: marketing

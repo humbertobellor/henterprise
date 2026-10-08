@@ -2,7 +2,7 @@
 name: procurement-and-sourcing
 description: "Buys well, before a contract exists. Specifying need, running competitive sourcing, negotiating, and category strategy. Use this to run an RFP or vendor selection, negotiate a purchase, consolidate spend across a category, decide between single and multiple suppliers, or bring uncontrolled spending under management."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: operations

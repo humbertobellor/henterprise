@@ -2,7 +2,7 @@
 name: service-level-management
 description: "Defines and manages service levels. Setting targets that reflect what customers need, measuring honestly, and handling breaches. Use this to write or negotiate an SLA, decide what to measure and at what threshold, respond to a missed service level, or work out why a service that meets its targets still has unhappy customers."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: operations

@@ -2,7 +2,7 @@
 name: financial-modeling
 description: "Builds and stress-tests financial models. For forecasting, scenario planning, and decision support - revenue build, cost structure, driver logic, and the sensitivities that show where a plan breaks. Use this to model a decision's financial consequence, build a forecast or long-range plan, evaluate an investment or hire, or pressure-test someone else's model before relying on it."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: finance

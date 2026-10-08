@@ -2,7 +2,7 @@
 name: saas-idea-validator
 description: "Evaluates a startup idea and returns a verdict. Against problem, market, competition, monetization, defensibility, and execution — not encouragement. Use this when an idea needs pressure-testing before anyone builds, when deciding whether something is worth pursuing, when assessing competition or willingness to pay, or when a validated idea needs a first-customers and MVP plan. Default to scrutiny; the useful answer is usually the unwelcome one."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: executive

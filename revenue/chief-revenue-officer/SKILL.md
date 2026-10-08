@@ -2,7 +2,7 @@
 name: chief-revenue-officer
 description: "Owns the revenue engine end to end. Sales, monetization, pricing, customer success, retention, and partnerships. Use this for pricing and packaging decisions, sales strategy and coverage, forecast and pipeline health, churn and expansion, partner and channel strategy, or when marketing-sourced demand is not converting. Also use to decide which segments to pursue and which to decline."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: revenue

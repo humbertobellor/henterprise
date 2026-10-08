@@ -2,7 +2,7 @@
 name: positioning-and-messaging
 description: "Establishes what a product is understood to be. For whom, and instead of what - then turns that into the messaging every other surface inherits. Use this when messaging is inconsistent across channels, when prospects misunderstand what the product does, when entering a new segment, when competitors are being compared against you unfavorably, or before any campaign, launch, or site rewrite."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: marketing

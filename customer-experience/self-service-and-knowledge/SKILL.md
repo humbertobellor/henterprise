@@ -2,7 +2,7 @@
 name: self-service-and-knowledge
 description: "Builds the help center and in-product guidance. Knowledge base content, findability, maintenance, and deflection measurement, so customers resolve problems without contacting anyone. Use this to build or fix a help center, reduce support volume, write documentation for customers, improve findability, or decide what deserves a help article versus a product fix."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: customer-experience

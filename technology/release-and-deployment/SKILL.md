@@ -2,7 +2,7 @@
 name: release-and-deployment
 description: "Ships changes safely and often. Pipelines, deployment strategies, feature flags, rollback, and database changes. Use this to design a deployment pipeline, reduce release risk, roll out a risky change gradually, plan a schema migration, or work out why releases are infrequent and frightening."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: technology

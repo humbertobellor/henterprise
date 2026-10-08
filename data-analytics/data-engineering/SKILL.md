@@ -2,7 +2,7 @@
 name: data-engineering
 description: "Builds and operates data pipelines. Ingestion, transformation, orchestration, quality testing, and reliability of data delivery. Use this to design or debug a pipeline, decide batch versus streaming, add data quality checks, handle late or duplicate data, or work out why a dashboard's numbers changed without anyone changing the dashboard."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: data-analytics

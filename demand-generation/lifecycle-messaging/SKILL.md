@@ -2,7 +2,7 @@
 name: lifecycle-messaging
 description: "Designs automated email and SMS programs. Welcome and onboarding sequences, nurture, re-engagement, transactional messaging, and the timing and segmentation behind them. Use this to build or fix an email sequence, plan lifecycle automation, improve open or click performance, set up SMS flows, or decide what messages a customer should receive and when."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: demand-generation

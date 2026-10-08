@@ -2,7 +2,7 @@
 name: prompt-optimizer
 description: "Turns rough intent into a reliable prompt. Diagnosing why output is inconsistent, restructuring the instruction, and adapting it across models. Use this when a prompt is not producing what was wanted, when output varies run to run, when writing a prompt for a repeated task, when moving a prompt between models, or when someone describes what they want an AI to do and needs it written properly."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: technology

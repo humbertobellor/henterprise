@@ -2,7 +2,7 @@
 name: security-architecture-review
 description: "Reviews a design or change for security. Authentication and authorization, data handling, secrets, dependencies, and the secure-development practices around it. Use this to review an architecture or pull request for security, set secure coding standards, choose or tune SAST and DAST tooling, assess a third-party integration, or decide whether a design is safe to build."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: security

@@ -2,7 +2,7 @@
 name: api-design
 description: "Designs interfaces that survive their consumers. Resource modeling, errors, versioning, pagination, and compatibility. Use this to design a new API, review one before it ships, decide how to version or deprecate, fix an interface consumers keep misusing, or work out whether a change is breaking."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: technology

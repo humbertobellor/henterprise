@@ -2,7 +2,7 @@
 name: newsletter-writer
 description: "Writes newsletters and emails people actually open. Subject lines, opening, structure, voice, and the conversion turn where there is one. Use this to draft or rewrite a newsletter or email, sharpen weak email copy, plan a newsletter's structure and cadence, write a sequence, or repurpose an issue into other formats. For automated lifecycle and SMS programs, use lifecycle-messaging."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: marketing

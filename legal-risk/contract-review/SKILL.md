@@ -2,7 +2,7 @@
 name: contract-review
 description: "Reviews and negotiates commercial agreements. MSAs, SOWs, order forms, NDAs, vendor and data-processing agreements — identifying material risk, proposing positions, and recommending a path rather than listing issues. Use this to review a contract before signature, prepare a negotiation position, build fallback positions and approval thresholds, or assess exposure in terms already agreed."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: legal-risk

@@ -2,7 +2,7 @@
 name: chief-strategy-officer
 description: "Owns where the business plays and how it wins. Multi-year portfolio choices, corporate development, strategic partnerships, and planning under uncertainty. Use this for a decision about which markets or businesses to be in, whether to build, buy, or partner, how to allocate capital across business lines, or when a long-horizon bet needs framing. Distinct from chief-executive, which arbitrates present-quarter conflicts."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: corporate-strategy

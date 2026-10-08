@@ -2,7 +2,7 @@
 name: ai-search-optimization
 description: "Optimizes for AI assistants and generated answers. Being retrievable, being cited, and being represented accurately when a model answers on your behalf. Use this when traffic is shifting from links to AI answers, when a brand is misrepresented or absent in AI responses, when planning content for retrieval rather than ranking, or when deciding how AI search changes an existing SEO program."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: demand-generation

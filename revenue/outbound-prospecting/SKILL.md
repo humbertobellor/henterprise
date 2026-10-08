@@ -2,7 +2,7 @@
 name: outbound-prospecting
 description: "Finds, qualifies, and reaches prospects cold. List building, qualification criteria, cold email and multi-channel sequences, and the follow-up that actually gets replies. Use this to build a prospect list, write cold outreach, fix a sequence that is not getting responses, define qualification criteria, or decide whether a segment is worth pursuing."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: revenue

@@ -2,7 +2,7 @@
 name: incident-response
 description: "Runs a security incident from detection to closure. Triage, containment, investigation, communication, and the review afterward. Use this when a compromise is suspected or confirmed, when preparing an incident response plan or running an exercise, when deciding whether something is an incident, or when a breach may trigger notification obligations."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: security

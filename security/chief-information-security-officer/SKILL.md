@@ -2,7 +2,7 @@
 name: chief-information-security-officer
 description: "Owns the security posture of the organization. Architecture, program strategy, risk acceptance, incident command, and the authority to stop work that creates unacceptable exposure. Use this for a security strategy or program decision, when a technical choice creates security risk that needs a verdict, when deciding whether to accept or block a risk, when standing up a security function, or when security and delivery priorities conflict and someone has to decide."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: security

@@ -2,7 +2,7 @@
 name: visual-reference-generation
 description: "Produces design reference imagery before building. Screen concepts, layout directions, and flows for web or mobile that make a verbal brief concrete enough to argue with. Use this when a brief needs visualizing before anyone builds, when comparing layout directions, when handing a developer a target, or when stakeholders are describing different things with the same words."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: product

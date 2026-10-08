@@ -2,7 +2,7 @@
 name: quality-management
 description: "Builds quality into operations. Defining standards, catching defects at the right point, root cause analysis, and continuous improvement. Use this to reduce a defect or error rate, design quality controls into a process, run a root cause analysis, respond to a customer quality complaint, or set up quality metrics that drive behavior."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: operations

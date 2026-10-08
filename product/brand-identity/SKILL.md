@@ -2,7 +2,7 @@
 name: brand-identity
 description: "Defines and applies visual brand. Logo usage, palette, typography, imagery direction, and the guidelines that keep expression consistent across product and marketing surfaces. Use this to establish a brand from scratch, audit whether an existing brand is being applied consistently, build brand guidelines, or decide how a brand should express itself in an unfamiliar format."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: product

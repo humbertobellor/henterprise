@@ -2,7 +2,7 @@
 name: hiring-and-interviewing
 description: "Designs and runs hiring. Role definition, sourcing, interview loop design, structured evaluation, and the decision itself. Use this to open a role, write a job description or scorecard, design an interview process, prepare interview questions, calibrate a hiring decision, or diagnose why a hiring process produces poor outcomes."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: people

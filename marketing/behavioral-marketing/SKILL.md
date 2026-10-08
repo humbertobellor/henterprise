@@ -2,7 +2,7 @@
 name: behavioral-marketing
 description: "Applies decision science to marketing choices. How people actually choose under uncertainty, and how framing, defaults, sequencing, and social context change behavior. Use this to diagnose why a well-argued offer is not converting, to structure choices and pricing presentation, to design an experience around how attention and memory work, or to pressure-test whether a persuasion tactic is legitimate or manipulative."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: marketing

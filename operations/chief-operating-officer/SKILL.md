@@ -2,7 +2,7 @@
 name: chief-operating-officer
 description: "Owns execution across the organization. How work actually gets done - process, program management, capacity, vendors, supply chain, and service delivery. Use this when execution is the problem rather than strategy, to design or fix a process, to resolve cross-functional handoff failures, to plan capacity, to assess delivery risk, or when the same failure keeps recurring. Also use to decide whether to build, hire, or outsource a capability."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: operations

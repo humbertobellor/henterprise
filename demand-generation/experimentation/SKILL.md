@@ -2,7 +2,7 @@
 name: experimentation
 description: "Designs, runs, and reads A/B tests. Hypothesis, sample size, duration, guardrails, and honest interpretation. Use this to plan a test, judge whether a result is real, build an experimentation program, decide what to test next, or diagnose why tests keep producing inconclusive or non-replicating results."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: demand-generation

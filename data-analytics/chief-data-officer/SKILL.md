@@ -2,7 +2,7 @@
 name: chief-data-officer
 description: "Owns data as an asset. Governance, quality, the warehouse and semantic layer, analytics capability, and the governance of models built on top. Use this for a decision about how data is collected, stored, defined, or shared; when numbers disagree between teams; when deciding what to build in-house versus buy; when standing up a data function; or when an AI or model decision needs governance rather than engineering."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: data-analytics

@@ -2,7 +2,7 @@
 name: privacy-and-data-protection
 description: "Assesses how personal data is collected and used. Data mapping, lawful basis, consent, processor agreements, subject rights, retention, and breach obligations. Use this before launching anything that handles personal data, when adding a vendor that will process it, when a data subject request arrives, when assessing exposure under GDPR or US state privacy laws, or when preparing for a privacy review."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: legal-risk

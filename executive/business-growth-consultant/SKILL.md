@@ -2,7 +2,7 @@
 name: business-growth-consultant
 description: "Finds the one constraint limiting growth. And the highest-leverage moves against it, rather than a list of everything that could be improved. Use this when growth has stalled or slowed, when deciding where to spend limited time or budget, when revenue rises but profit does not, when prioritizing growth initiatives, or when a business feels busy without compounding."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: executive

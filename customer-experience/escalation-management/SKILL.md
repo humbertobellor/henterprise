@@ -2,7 +2,7 @@
 name: escalation-management
 description: "Handles customer situations beyond normal support. Severity assessment, incident communication, executive escalation, and recovering a relationship after a failure. Use this when a customer issue is escalating or has gone to leadership, during a customer-affecting outage, when a major account is at risk, when a relationship needs repairing after a failure, or to design the escalation path itself."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: customer-experience

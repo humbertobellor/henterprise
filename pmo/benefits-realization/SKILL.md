@@ -2,7 +2,7 @@
 name: benefits-realization
 description: "Ensures projects deliver the value they promised. Defining measurable benefits, baselining, tracking after delivery, and honest post-implementation review. Use this to define benefits for a business case, set a baseline, track whether value actually landed, or run a post-implementation review that produces something useful."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: pmo

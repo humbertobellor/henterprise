@@ -2,7 +2,7 @@
 name: landing-page-cro-expert
 description: "Audits and rewrites pages to increase conversion. Landing pages, homepages, and sales pages - diagnosing why a page is not converting, rewriting headlines, hero copy and calls to action, and prioritizing which changes to test first. Use this when a page underperforms, when someone pastes a URL or screenshot asking what is wrong, when writing a new page, or when deciding which conversion changes are worth testing."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: demand-generation

@@ -2,7 +2,7 @@
 name: interface-craft
 description: "Raises the visual quality of an interface. Layout, hierarchy, type, spacing, density, dark mode, and the accessibility floor that separates a considered product from a generic one. Use this when a screen works but looks unfinished or default, when a layout feels crowded or arbitrary, when a page has no clear focal point, or when an interface needs to feel trustworthy rather than merely functional."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: product

@@ -2,7 +2,7 @@
 name: program-management
 description: "Plans and drives cross-functional programs. Scope, sequencing, dependencies, status, risk, and the escalations that keep work moving. Use this to run a multi-team initiative, recover a program that is slipping, build a delivery plan with dependencies, structure status reporting, or diagnose why cross-team work keeps missing dates."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: pmo

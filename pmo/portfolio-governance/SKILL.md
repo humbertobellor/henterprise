@@ -2,7 +2,7 @@
 name: portfolio-governance
 description: "Governs the portfolio of work. Intake, prioritization, stage gates, resource contention, and stopping things. Use this to set up intake and prioritization, run a stage gate, decide between competing initiatives, resolve resource contention across projects, or work out why everything is in flight and nothing is finishing."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: pmo

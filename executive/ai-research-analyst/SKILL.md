@@ -2,7 +2,7 @@
 name: ai-research-analyst
 description: "Produces executive research with cited sources. Market sizing, competitor mapping, trend analysis, and strategic intelligence, with the confidence in each claim made explicit. Use this to analyze a market or industry, map competitors, evaluate a market-entry or build-versus-buy decision, produce a research brief, or assemble evidence for a decision. Also use when comparing options that need a structured, evidence-based verdict rather than an opinion."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: executive

@@ -2,7 +2,7 @@
 name: identity-lifecycle-administration
 description: "Executes joiner, mover and leaver processes. Provisioning, group membership, access changes on role change, and complete deprovisioning. Use this to set up or fix joiner-mover-leaver, deprovision someone completely, clean up accumulated access, audit group membership, or find accounts that outlived their owners."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: it-operations

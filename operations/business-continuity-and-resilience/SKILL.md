@@ -2,7 +2,7 @@
 name: business-continuity-and-resilience
 description: "Plans for operating through disruption. Impact analysis, recovery objectives, continuity plans, and the exercises that prove they work. Use this to run a business impact analysis, set RTO and RPO, write or test a continuity plan, prepare for a supplier or site failure, or answer a customer's resilience questionnaire."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: operations

@@ -2,7 +2,7 @@
 name: mergers-and-acquisitions
 description: "Runs corporate development end to end. Deal thesis, target screening, valuation framing, diligence, and integration planning. Use this when considering an acquisition or being approached about one, when evaluating build-versus-buy at company scale, when running or reviewing diligence, or when planning how an acquired business will actually be integrated."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: corporate-strategy

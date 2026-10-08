@@ -2,7 +2,7 @@
 name: benefits-and-leave
 description: "Designs and runs employee benefits and leave. Health and retirement plans, leave policy, cost and renewal, and the administration that keeps them compliant. Use this to design or review a benefits package, prepare for a renewal, write leave policy, handle a leave request, or decide what benefits are worth their cost."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: people

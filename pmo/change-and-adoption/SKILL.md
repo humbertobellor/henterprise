@@ -2,7 +2,7 @@
 name: change-and-adoption
 description: "Gets people to actually use what was delivered. Stakeholder analysis, communication, training, resistance, and measuring adoption. Use this to plan a rollout, recover an implementation nobody is using, handle resistance to a change, sequence communications, or work out why a technically successful project changed nothing."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: pmo

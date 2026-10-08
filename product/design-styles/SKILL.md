@@ -2,7 +2,7 @@
 name: design-styles
 description: "Applies a deliberate visual direction. Minimalist editorial, industrial utilitarian, or high-polish commercial - each with its own type scale, palette behavior, surface treatment, and motion. Use this when a product needs a point of view rather than defaults, when choosing between visual directions, when an interface reads as generic, or when restyling something without changing its structure."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: product

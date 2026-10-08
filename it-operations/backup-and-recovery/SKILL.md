@@ -2,7 +2,7 @@
 name: backup-and-recovery
 description: "Protects and restores data. Backup coverage and scope, retention, immutability against ransomware, and proving restores actually work. Use this to design a backup regime, verify restores, plan retention, protect backups from ransomware, or recover from data loss."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: it-operations

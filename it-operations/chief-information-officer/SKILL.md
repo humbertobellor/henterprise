@@ -2,7 +2,7 @@
 name: chief-information-officer
 description: "Runs the technology the company works on. Service quality, IT spend, and the boundary with product engineering. Use this to set IT priorities, decide what IT owns versus engineering, structure IT spend or an IT roadmap, judge whether to build, buy or outsource, or work out why IT is seen as a cost center rather than an enabler."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: it-operations

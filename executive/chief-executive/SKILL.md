@@ -2,7 +2,7 @@
 name: chief-executive
 description: "Sets direction and makes the calls no one else can. Allocates capital and attention across functions. Use this when a decision spans more than one function, when priorities conflict and something must be cut, when a plan needs pressure-testing before commitment, or when the question is what the organization should do rather than how to do it. Also use to route a request to the right executive when it is unclear who owns it."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: executive

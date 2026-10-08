@@ -2,7 +2,7 @@
 name: voice-of-customer
 description: "Builds the loop from what customers say to what changes. Collecting feedback, distinguishing signal from noise, routing it to owners, and closing the loop back to the customer. Use this to set up a feedback program, design or interpret CSAT and NPS, decide what customer feedback deserves action, get product to act on recurring issues, or diagnose why feedback is collected but nothing changes."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: customer-experience

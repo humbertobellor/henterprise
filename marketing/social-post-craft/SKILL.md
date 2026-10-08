@@ -2,7 +2,7 @@
 name: social-post-craft
 description: "Writes and evaluates social posts end to end. Hooks, body, formatting for how each platform renders, and a quality check before publishing. Use this to draft a post, rewrite one that underperformed, turn a longer piece into social content, sharpen an opening, or judge whether a draft is worth publishing."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: marketing

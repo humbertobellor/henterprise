@@ -2,7 +2,7 @@
 name: strategic-alliances
 description: "Structures partnerships that change what you can do. Technology integrations, channel and reseller arrangements, joint ventures, and OEM relationships. Use this to evaluate or structure a strategic partnership, decide between partnering and building, negotiate commercial terms of an alliance, or diagnose a partnership that is signed but not producing. For audience-borrowing partnerships, use partnership-marketing."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: corporate-strategy

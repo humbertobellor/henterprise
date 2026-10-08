@@ -2,7 +2,7 @@
 name: chief-customer-officer
 description: "Owns the customer experience after the sale. Support, success, escalation, and the feedback loop back into product. Use this for a decision spanning support and product, when service quality and cost are in tension, when deciding what to staff or automate, when a customer relationship is at risk above the account-manager level, or when nobody owns a recurring customer problem."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: customer-experience

@@ -2,7 +2,7 @@
 name: threat-modeling
 description: "Identifies what could go wrong before it is built. The assets worth attacking, the entry points, the trust boundaries, and the controls that actually address the realistic threats. Use this when designing a feature or system, when a change touches authentication, data handling, payments, or external input, before a security review, or when deciding which security work is worth doing at all."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: security

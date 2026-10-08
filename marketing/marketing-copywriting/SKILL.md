@@ -2,7 +2,7 @@
 name: marketing-copywriting
 description: "Writes and edits marketing copy for any surface. Homepage, product and pricing pages, ads, emails, and collateral - and sharpens existing copy that is not working. Use this to write or rewrite page copy, tighten a draft, fix copy that is vague or feature-led, adapt one message across formats, or review copy before it ships."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: marketing

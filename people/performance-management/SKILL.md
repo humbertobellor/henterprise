@@ -2,7 +2,7 @@
 name: performance-management
 description: "Runs performance systems that change behavior. Expectations, feedback, review cycles, calibration, and handling underperformance. Use this to design or fix a review process, run calibration, write or coach on feedback, address sustained underperformance, or work out why reviews consume weeks and change nothing."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: people
