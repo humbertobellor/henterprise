@@ -68,6 +68,25 @@ The executive persona is the natural soul for this configuration — every other
 cp executive/SOUL.md ~/.hermes/SOUL.md
 ```
 
+When one executive session needs genuinely separate departmental workers, use Hermes' native
+`delegate_task` path rather than simulating several departments in the main conversation. Give each
+child an actual departmental remit and the relevant Henterprise skill. The executive session remains
+the shared coordination surface for that task.
+
+For a cross-department dependency, load `enterprise/pmo/dependency-and-risk-management` in the
+executive session and keep the task-scoped commitment ledger described by
+`enterprise/technology/parallel-agent-delivery`. The providing department must explicitly accept,
+revise, or reject the commitment; the accepted or revised result is then returned to every affected
+consumer before its work continues.
+
+For independent review, `enterprise/executive/agent-hierarchy` defines the producer/reviewer split:
+spawn a fresh reviewer child, have it inspect the underlying artifact rather than the producer's
+summary, and return blocking findings for correction and fresh independent re-review.
+
+This is a task-scoped delegated mode. It does not turn a delegated child into one of the persistent
+profiles below and does not claim persistent cross-profile transport. Use separate profiles when a
+department needs long-lived isolated Hermes state.
+
 ### One profile per department
 
 Each department folder is a staged Hermes profile. Its `README.md` carries the exact commands; the

@@ -1,7 +1,7 @@
 ---
 name: agent-hierarchy
 description: "Designs orchestrator-and-subagent hierarchies. Splits agents by exclusive write surface, pairs every producer with an independent auditor, and enforces the split with a script that runs in CI. Use this whenever the user wants to set up, expand, audit, or fix a multi-agent or subagent structure for a codebase; asks how to divide work between agents; wants agent charters, roles, or a surface map written; or is hitting agents that collide on the same files, review their own work, or drift from their remit. Also use when sizing a roster or deciding whether a new agent is justified."
-version: 1.0.0
+version: 1.1.0
 author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
@@ -66,6 +66,44 @@ Do not start writing charters early; the order is the method.
    gone, so it has to run while the work is still attributable.
 5. **Write charters last**, in the format in the playbook: why the agent exists, what it must
    never do, the verification its surface implies, and a six-section return contract.
+6. **Instantiate the roles as separate Hermes children** when executing the hierarchy. Use
+   `delegate_task` for each builder and reviewer rather than role-playing several roster rows inside
+   the main conversation. Give every child its remit, exact surface, relevant skill path, evidence it
+   must inspect, and return contract. For independent tasks, batch the calls only under
+   `enterprise/technology/parallel-agent-delivery`.
+
+### Independent review on Hermes
+
+A reviewer is a distinct delegated child, not a second pass by the producer or orchestrator.
+
+1. Let the producing child finish and preserve the artifact it created. Record an immutable locator,
+   revision, checksum, or pre-review diff for the exact material the reviewer will inspect.
+2. Start a **new** `delegate_task` call for the reviewer. Give it the artifact/workspace location,
+   the review question, acceptance criteria, and the relevant reviewer-class skill to load. For
+   security work use `enterprise/security/security-architecture-review`; use the matching
+   `enterprise/legal-risk/*` skill for legal, privacy, compliance, or contract review.
+3. Do not make the producer's conclusion the reviewer's evidence. The reviewer must inspect the
+   underlying artifact and supporting evidence itself. It must not modify the artifact under review;
+   it returns findings to the orchestrator.
+4. Require a structured return with what was inspected, `clean | non-blocking | blocking`, concrete
+   findings, evidence, and the required correction or escalation. Where practical, use
+   `delegate_task`'s `output_schema` so the return shape is machine-checkable without turning the
+   reviewer judgment itself into a deterministic rule.
+5. After the reviewer returns, verify that the artifact revision/checksum/diff recorded in step 1 did
+   not change during review. A mutation invalidates that review: restore or preserve the intended
+   artifact and run a fresh reviewer child.
+6. A blocking finding goes back to the responsible builder for correction. After correction, spawn a
+   **fresh reviewer child** and inspect the corrected artifact again. The producer cannot clear its
+   own finding.
+7. If a blocking finding is to be accepted rather than corrected, treat it as an explicit risk
+   acceptance under `enterprise/pmo/dependency-and-risk-management` (a named accepter, recorded) and
+   route the decision to `enterprise/executive/chief-executive`. Risk acceptance does not rewrite the
+   reviewer's finding.
+
+Hermes delegated children are task-scoped agents with fresh conversations. This mode deliberately
+does not pretend to invoke a named persistent Hermes profile. Use the repository's per-department
+profile installation when long-lived isolated department state is required; use native delegation
+when one executive session needs distinct operational or reviewer actors for the current work.
 
 ## Rules that carry a failure behind them
 
@@ -93,9 +131,14 @@ that as the worked example of the format.
 - Splitting agents by topic. Two topic agents inevitably edit the same file, and neither can be
   held responsible.
 - Writing charters before the surface map. The order is the method.
+- Treating several role prompts in one main conversation as separate agents; use separate delegated
+  children when independence or inter-agent coordination is the point.
 - Giving the orchestrator a surface, which makes it a builder that can also merge.
 - Gating every row with `proposes` or `escalates`, which makes the gate meaningless.
 - Letting the same agent produce and audit. It will approve itself.
+- Passing only the producer's summary to a reviewer instead of the underlying artifact/evidence.
+- Letting a reviewer repair the artifact it is judging, which collapses producer/auditor separation.
+- Accepting a review after the inspected artifact changed underneath it.
 - Running `agent-guard.mjs diff` after the orchestrator has committed, when the authorship it
   checks is already gone.
 
@@ -110,6 +153,13 @@ node scripts/agent-guard.mjs check
 `check` proves the map is coherent: no path claimed by two agents, no path unowned. `diff <agent>`
 proves a given change obeyed the map, and must run while the work is still attributable — before
 the orchestrator commits. Wire both into CI; a guard that does not run in CI is documentation.
+
+For an executed Hermes hierarchy, also preserve the child-return evidence: which builder produced
+the artifact, which separate reviewer inspected it, the immutable locator/revision/checksum used for
+that review, the review outcome, the post-review no-mutation check, and any correction → fresh
+re-review loop. If the same child identity produced and reviewed the work, the artifact changed
+unaccounted-for during review, or a blocking finding was cleared without correction/re-review or
+explicit executive risk acceptance, the hierarchy did not satisfy its own independence contract.
 
 Report the roster with each agent's class, remit, and globs; the surface map file; the guard output
 for both modes; and any path deliberately left unowned, named as such.
@@ -129,3 +179,6 @@ for both modes; and any path deliberately left unowned, named as such.
 - `enterprise/executive/chief-executive` — the orchestrator role this method assumes.
 - `enterprise/people/org-design` — the same split applied to human teams.
 - `enterprise/technology/parallel-agent-delivery` — running the resulting roster in parallel.
+- `enterprise/security/security-architecture-review` — independent security review over the
+  producer's underlying artifact.
+- `enterprise/pmo/dependency-and-risk-management` — explicit, named risk acceptance.
