@@ -2,7 +2,7 @@
 name: technical-debt-management
 description: "Makes technical debt visible and decidable. Distinguishing real debt from mess, quantifying its cost, and arguing for remediation in business terms. Use this to assess and prioritize debt, decide whether to fix or live with something, justify remediation work to non-engineers, or plan a migration off a system nobody wants to touch."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: technology

@@ -2,7 +2,7 @@
 name: supply-chain-and-logistics
 description: "Manages the flow of goods and inputs. Sourcing, inventory, lead times, fulfillment, and supply risk. Use this to reduce stockouts or excess inventory, plan for a supplier failure, decide reorder points and safety stock, improve fulfillment reliability, or assess concentration risk in a supply base."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: operations

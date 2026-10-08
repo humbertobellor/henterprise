@@ -2,7 +2,7 @@
 name: endpoint-management
 description: "Manages laptops, desktops, and mobile devices. Enrollment, configuration, patching, software distribution, and lost or compromised devices. Use this to set up device management, standardize builds, roll out software or an OS upgrade, handle a lost device, or bring an unmanaged fleet under control."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: it-operations

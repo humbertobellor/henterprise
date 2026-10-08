@@ -2,7 +2,7 @@
 name: employee-relations
 description: "Handles the difficult human situations. Grievances, complaints, investigations, conflict, and separations conducted properly. Use this to respond to a complaint or grievance, structure an investigation, handle a conflict between colleagues, prepare for a difficult conversation, or work out what a manager can and cannot do in a given situation."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: people

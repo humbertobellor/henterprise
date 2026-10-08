@@ -2,7 +2,7 @@
 name: content-strategy
 description: "Decides what content to make and why. Topic territory, format mix, cadence, and how content connects to a business outcome rather than to traffic. Use this to plan a content program, choose topics, build an editorial calendar, decide which formats and platforms to commit to, or diagnose why content is producing audience but not results."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: marketing

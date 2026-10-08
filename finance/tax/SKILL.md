@@ -2,7 +2,7 @@
 name: tax
 description: "Structures the tax questions a growing business faces. Corporate income, sales and use, payroll, nexus, and the obligations created by hiring or selling somewhere new. Use this to work out what a new state or country obligates you to, prepare for a tax filing or audit, understand sales tax on your product, or check what a remote hire or new market triggers."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: finance

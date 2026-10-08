@@ -2,7 +2,7 @@
 name: dependency-and-risk-management
 description: "Manages delivery risk and cross-team dependencies. Identifying, sizing, mitigating and escalating what could stop the work. Use this to build a risk register that gets used, manage dependencies between teams, decide what to escalate and when, or work out why the same risks keep materialising unmanaged."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: pmo

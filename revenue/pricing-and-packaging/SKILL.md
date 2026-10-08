@@ -2,7 +2,7 @@
 name: pricing-and-packaging
 description: "Sets price, tiers, and the surfaces that carry them. The pricing metric, packaging structure, upgrade paths, paywalls, and offer construction. Use this to set or change pricing, design or restructure tiers, choose a pricing metric, build an offer, design upgrade prompts and paywalls, or evaluate whether a pricing change is safe to make."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: revenue

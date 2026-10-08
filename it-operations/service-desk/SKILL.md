@@ -2,7 +2,7 @@
 name: service-desk
 description: "Runs the IT service desk. Intake, triage, prioritization, escalation, knowledge, and the metrics that improve service rather than distort it. Use this to set up or fix a service desk, design ticket priority and escalation, reduce repeat contacts, structure a knowledge base, or work out why a desk hitting its targets still frustrates everyone."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: it-operations

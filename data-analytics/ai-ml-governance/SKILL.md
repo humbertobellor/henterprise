@@ -2,7 +2,7 @@
 name: ai-ml-governance
 description: "Governs models and AI systems in production. Intended use, evaluation, monitoring, human oversight, documentation, and the decision to deploy or retire. Use this before deploying a model or AI feature, when defining evaluation criteria, when a model's behavior has drifted, when assessing AI risk or regulatory exposure, or when deciding whether an AI system is fit for a consequential decision."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: data-analytics

@@ -2,7 +2,7 @@
 name: capacity-and-demand-planning
 description: "Matches operational capacity to expected demand. Forecasting load, sizing teams and systems, managing queues, and deciding when to add capacity. Use this to plan staffing for expected volume, diagnose a queue that keeps growing, size support or fulfillment capacity, or decide whether a bottleneck needs more capacity or better flow."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: operations

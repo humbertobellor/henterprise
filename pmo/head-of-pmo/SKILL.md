@@ -2,7 +2,7 @@
 name: head-of-pmo
 description: "Runs the PMO, and keeps it worth funding. What it governs, what it must never become, and how it earns standing rather than compliance. Use this to stand up or reform a PMO, decide what it should and should not control, judge whether it is adding value or overhead, or work out why teams route around it."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: pmo

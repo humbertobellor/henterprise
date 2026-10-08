@@ -2,7 +2,7 @@
 name: treasury-and-liquidity
 description: "Manages cash and liquidity. Cash forecasting, runway, working capital, banking structure, and currency and counterparty exposure. Use this to build a cash forecast, extend runway, improve working capital, decide where cash should sit, or assess exposure to a bank, currency, or customer concentration."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: finance

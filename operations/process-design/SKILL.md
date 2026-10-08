@@ -2,7 +2,7 @@
 name: process-design
 description: "Designs, documents, and fixes operational processes. Mapping the current state, finding where work actually stalls, redesigning the flow, and building controls that hold. Use this when the same failure keeps recurring, when a handoff between teams is unreliable, when onboarding a repeated task, when work takes far longer than the work itself, or when deciding whether to automate, standardize, or eliminate a process."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: operations

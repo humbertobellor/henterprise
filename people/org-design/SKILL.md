@@ -2,7 +2,7 @@
 name: org-design
 description: "Designs how an organization is structured. Reporting lines, team boundaries, spans and layers, role definition, and workforce planning against the strategy. Use this to structure a new team, restructure an existing one, resolve unclear ownership between teams, plan headcount, or diagnose why a team underperforms for structural rather than individual reasons."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: people

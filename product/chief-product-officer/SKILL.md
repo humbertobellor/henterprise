@@ -2,7 +2,7 @@
 name: chief-product-officer
 description: "Owns what gets built and why. Product strategy, roadmap, discovery, user experience, and the definition of success for each release. Use this to decide what to build next, to cut scope, to turn a business goal into a product bet, to judge whether a feature is worth its cost, or when engineering and go-to-market disagree about what a release is for. Also use for roadmap sequencing and for killing work that is not earning its place."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: product

@@ -2,7 +2,7 @@
 name: partnership-marketing
 description: "Builds reach through other people's audiences. Co-marketing partnerships, creator and influencer programs, community building, and affiliate arrangements. Use this to find and evaluate partners, structure a joint campaign or creator deal, plan a community strategy, or decide whether a partnership is worth the coordination cost."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: marketing

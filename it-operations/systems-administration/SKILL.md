@@ -2,7 +2,7 @@
 name: systems-administration
 description: "Runs servers and corporate systems. Patching, configuration baselines, change control, capacity, and the routine that prevents incidents. Use this to establish a patching cadence, standardize server configuration, plan a maintenance window, decide change control for infrastructure, or clean up systems that have drifted from any known state."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: it-operations

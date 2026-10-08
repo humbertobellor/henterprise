@@ -2,7 +2,7 @@
 name: chief-financial-officer
 description: "Owns the financial position. Planning, budgeting, forecasting, unit economics, cash, and the numbers the business is run and reported on. Use this to build or challenge a budget, model a decision's financial consequence, assess unit economics or runway, evaluate an investment or spend request, set financial controls, or when a plan's numbers do not reconcile. Also use to decide whether the business can afford something."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: finance

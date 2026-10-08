@@ -2,7 +2,7 @@
 name: data-modeling
 description: "Designs the warehouse and semantic layer. Source-to-mart structure, dimensional modeling, grain, slowly changing dimensions, and the metric layer analytics reads through. Use this to design or restructure a warehouse, model a new source, decide on grain or table structure, build a semantic or metric layer, or diagnose why queries are slow, wrong, or impossible to write."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: data-analytics

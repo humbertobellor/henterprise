@@ -2,7 +2,7 @@
 name: visual-content
 description: "Designs the visual assets that carry content. Carousels, infographics, quote graphics, diagrams, and social imagery, including the generation prompts where they are AI-produced. Use this to turn a written piece into a visual format, design a carousel or infographic, create social graphics, or fix visuals that are not stopping the scroll."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: marketing

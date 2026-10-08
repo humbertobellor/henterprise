@@ -2,7 +2,7 @@
 name: marketing-planning
 description: "Builds the marketing plan of record. Objectives, channel mix, budget allocation, sequencing, and the measurement that says whether it worked. Use this for annual or quarterly planning, when budget must be allocated or defended, when marketing activity feels busy but undirected, or when a plan needs pressure-testing before commitment."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: marketing

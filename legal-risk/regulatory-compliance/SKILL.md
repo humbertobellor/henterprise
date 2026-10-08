@@ -2,7 +2,7 @@
 name: regulatory-compliance
 description: "Identifies which regulations actually apply to you. And builds the program that keeps you inside them - obligation mapping, controls, monitoring, and responding to regulators. Use this to work out what applies to your business, stand up a compliance program, prepare for a regulatory exam or certification, respond to a finding, or assess exposure before entering a new market."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: legal-risk

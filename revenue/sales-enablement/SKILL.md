@@ -2,7 +2,7 @@
 name: sales-enablement
 description: "Builds what a sales team needs to sell. Pitch decks, one-pagers, objection handling, competitive battlecards, demo scripts, and case studies. Use this to create or fix sales collateral, prepare for a competitive deal, build a demo flow, document objection responses, or diagnose why a pitch is not converting."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: revenue

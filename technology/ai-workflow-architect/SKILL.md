@@ -2,7 +2,7 @@
 name: ai-workflow-architect
 description: "Designs AI systems and agent workflows. Identifying which manual work is worth automating, how to structure the system, which tools fit, and what could go wrong. Use this to automate part of an operation, design an agent or MCP workflow, reduce repetitive manual work, connect tools into a system, decide which automation to build first, or audit an automation that is not delivering."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: technology

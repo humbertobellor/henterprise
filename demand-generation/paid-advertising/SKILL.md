@@ -2,7 +2,7 @@
 name: paid-advertising
 description: "Plans, runs, and optimizes paid acquisition. Across search, social, and display - account structure, targeting, creative, bidding, budget, and the analysis that says whether to scale or stop. Use this to set up or restructure campaigns, write and iterate ad creative, diagnose rising costs or falling performance, decide budget allocation, or judge whether a channel is working."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: demand-generation

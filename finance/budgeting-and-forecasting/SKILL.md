@@ -2,7 +2,7 @@
 name: budgeting-and-forecasting
 description: "Runs the planning cycle. Annual budget, rolling forecast, consolidation of business unit inputs, and the variance analysis that explains actuals against plan. Use this to build or challenge a budget, run a forecast cycle, consolidate departmental submissions, explain why results diverged from plan, or improve forecast accuracy."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: finance

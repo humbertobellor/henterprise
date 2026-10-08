@@ -2,7 +2,7 @@
 name: learning-and-development
 description: "Builds capability across the organization. Skills gaps, career frameworks, training that transfers to the job, and internal mobility. Use this to design a career ladder, close a capability gap, decide whether to build or hire a skill, structure onboarding into a role, or work out why training keeps failing to change anything."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: people

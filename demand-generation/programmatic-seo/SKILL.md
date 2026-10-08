@@ -2,7 +2,7 @@
 name: programmatic-seo
 description: "Builds search-targeted pages from a dataset. The location, comparison, integration, and use-case pages that capture long-tail demand at scale. Use this when there is a repeating query pattern with real volume, when a dataset could answer many similar searches, or to judge whether a programmatic approach is viable before building it."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: demand-generation

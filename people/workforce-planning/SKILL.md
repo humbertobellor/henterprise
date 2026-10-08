@@ -2,7 +2,7 @@
 name: workforce-planning
 description: "Plans the shape and size of the workforce. Demand for roles, build-versus-buy, attrition, and sequencing hiring against budget. Use this to build a hiring plan, decide which roles to open and in what order, model attrition and backfill, plan for a growth or contraction scenario, or connect headcount plans to the budget."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: people

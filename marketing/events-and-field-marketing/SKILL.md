@@ -2,7 +2,7 @@
 name: events-and-field-marketing
 description: "Plans and runs events that produce pipeline. Conferences, trade shows, webinars, field programs, and measuring whether any of it worked. Use this to decide whether to sponsor an event, plan a conference presence or webinar, design a field program, or work out why event spend is not producing pipeline."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: marketing

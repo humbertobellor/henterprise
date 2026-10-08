@@ -2,7 +2,7 @@
 name: ux-product-auditor
 description: "Audits an interface for usability and conversion. A website, app, onboarding flow, or design, tying every finding to a business outcome and a severity. Use this to review an interface, diagnose low conversion or activation, find where users drop off, get structured product feedback, or decide which UX fixes to ship first. For raising visual quality rather than finding problems, use interface-craft."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: product

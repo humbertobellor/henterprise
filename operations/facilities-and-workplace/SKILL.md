@@ -2,7 +2,7 @@
 name: facilities-and-workplace
 description: "Runs the physical and hybrid workplace. Space planning, leases, health and safety, office services, and the operational side of where people work. Use this to plan space, evaluate a lease or office move, set up a hybrid workplace, handle facilities incidents, or decide what office services are worth funding."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: operations

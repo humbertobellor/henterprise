@@ -2,7 +2,7 @@
 name: capital-allocation
 description: "Evaluates where to spend limited capital. Investment appraisal, hurdle rates, payback, and comparing proposals that are not alike. Use this to evaluate an investment or major purchase, compare competing funding requests, set a hurdle rate, decide between building and buying, or review whether past investments delivered what was claimed."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: finance

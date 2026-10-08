@@ -2,7 +2,7 @@
 name: ceo-advisor
 description: "Pressure-tests a decision before it is committed to. Surfaces the assumption it rests on, the case against it, and what would have to be true for it to work. Use this when weighing options, when a plan needs challenging before commitment, when you have already decided and want a genuine gut check, when processing meeting notes into decisions, or when competing initiatives need ranking. Distinct from chief-executive, which owns direction; this one interrogates a specific decision."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: executive

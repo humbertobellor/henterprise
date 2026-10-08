@@ -2,7 +2,7 @@
 name: activation
 description: "Gets new users from signup to first real value. Signup flow, onboarding, time-to-value, and the early experience that determines whether someone becomes a user or a lapsed account. Use this to design or fix signup and onboarding, diagnose why signups do not convert to active use, reduce time-to-value, or decide what a new user must accomplish first."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: revenue

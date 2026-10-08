@@ -2,7 +2,7 @@
 name: business-intelligence
 description: "Builds reporting and self-serve analytics people use. Metric trees, dashboard design, distribution, and the discipline that stops dashboards proliferating. Use this to build a dashboard or report, design a metrics framework, set up self-serve analytics, decide what to measure, or diagnose why reporting exists but nobody uses it or trusts it."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: data-analytics

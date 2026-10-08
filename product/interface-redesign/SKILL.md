@@ -2,7 +2,7 @@
 name: interface-redesign
 description: "Upgrades an interface without rebuilding it. Auditing what is there, identifying what reads as generic or unfinished, and sequencing changes by impact. Use this when a product works but looks dated or default, when a redesign is being considered, when deciding whether to restyle or rebuild, or when a screen needs to look substantially better with limited effort."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: product

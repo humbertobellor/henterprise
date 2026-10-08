@@ -2,7 +2,7 @@
 name: unit-economics
 description: "Establishes whether you make money on each customer. Contribution margin, acquisition cost, payback period, lifetime value, and the cohort behavior underneath. Use this to assess whether growth is profitable, evaluate a channel or segment, support a pricing decision, judge how fast the business can afford to grow, or diagnose why revenue growth is not producing profit."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: finance

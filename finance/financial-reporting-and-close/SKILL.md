@@ -2,7 +2,7 @@
 name: financial-reporting-and-close
 description: "Runs the period-end close and produces reporting. Close calendar, reconciliations, accruals, variance analysis, and reporting that gets read. Use this to shorten or stabilise a monthly close, design a close checklist, investigate a variance, structure management reporting, or work out why the numbers keep changing after close."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: finance

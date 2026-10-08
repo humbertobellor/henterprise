@@ -2,7 +2,7 @@
 name: data-governance
 description: "Establishes ownership, definitions, quality, and access. Plus lineage for the organization's data. Use this when metrics disagree between teams, when nobody knows which dataset is authoritative, when setting up data ownership or access policy, when data quality is unreliable, or before opening a dataset to a wider audience."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: data-analytics

@@ -2,7 +2,7 @@
 name: test-driven-development
 description: "Drives implementation from a failing test. Write the test first, then the smallest code that passes it. Use this before writing implementation code for any feature or bugfix, when a bug needs a regression test, when existing code is hard to change safely, or when someone asks whether a change is covered. Also use to decide what is worth testing and what is not."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: technology

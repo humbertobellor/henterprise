@@ -2,7 +2,7 @@
 name: brand-voice
 description: "Captures how a brand actually writes. And turns it into reusable voice instructions every other content skill draws from. Use this before drafting any content for a new brand or client, when output keeps coming back sounding generic, when several writers need to sound like one, or when a voice needs defining without existing samples to learn from."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: marketing

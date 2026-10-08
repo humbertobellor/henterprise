@@ -2,7 +2,7 @@
 name: enterprise-risk
 description: "Identifies, assesses, and tracks organizational risk. Building and maintaining a risk register, scoring exposure, assigning owners and treatments, and preparing for audit. Use this to stand up a risk program, assess the risk in a decision or initiative, prepare for a certification or audit, decide whether a risk should be accepted, mitigated, transferred, or avoided, or report risk posture to leadership."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: legal-risk

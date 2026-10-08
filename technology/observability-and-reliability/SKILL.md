@@ -2,7 +2,7 @@
 name: observability-and-reliability
 description: "Makes systems debuggable and reliably operable. Instrumentation, alerting that is worth waking for, service objectives, and learning from failure. Use this to instrument a service, fix alerting that is ignored, set error budgets or reliability targets, prepare for on-call, or run a blameless post-incident review."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: technology

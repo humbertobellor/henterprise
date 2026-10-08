@@ -2,7 +2,7 @@
 name: referral-programs
 description: "Designs referral and affiliate programs. Incentive structure, mechanics, timing, fraud control, and word-of-mouth amplification. Use this to build a referral or affiliate program, diagnose one that is not producing, decide what incentive to offer, or judge whether referral is a realistic channel for a product."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: revenue

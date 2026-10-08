@@ -2,7 +2,7 @@
 name: systematic-debugging
 description: "Finds the root cause before proposing a fix. For a bug, test failure, or unexpected behavior. Use this whenever something is broken and the cause is not yet proven - a failing test, a production error, intermittent behavior, or a symptom that appeared after a change. Also use when a fix has been attempted and did not work, or when the same bug keeps coming back."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: technology

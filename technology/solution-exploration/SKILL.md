@@ -2,7 +2,7 @@
 name: solution-exploration
 description: "Explores the problem before any code is written. Clarifying what is actually being asked, surfacing options with their tradeoffs, and converging on one. Use this at the start of any feature, component, or behavior change, when a request is ambiguous, when the first idea is the only idea on the table, or when a design decision needs pressure-testing before commitment."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: technology

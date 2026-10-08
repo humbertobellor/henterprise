@@ -2,7 +2,7 @@
 name: seo-strategy
 description: "Audits and improves organic search performance. Technical health, site architecture, internal linking, structured data, and the content decisions that determine what can rank. Use this to run an SEO audit, diagnose why pages are not ranking or were deindexed, plan a site's URL and navigation structure, add structured data, or prioritize which SEO fixes are worth doing."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: demand-generation

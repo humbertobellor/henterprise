@@ -2,7 +2,7 @@
 name: project-delivery
 description: "Plans and delivers a single project. Scope, estimation, scheduling, critical path, tracking, and recovering when it slips. Use this to plan a project, build or challenge a schedule, estimate credibly, track progress meaningfully, or recover a project that is late."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: pmo

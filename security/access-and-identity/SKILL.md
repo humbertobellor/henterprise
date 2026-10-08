@@ -2,7 +2,7 @@
 name: access-and-identity
 description: "Designs and audits who can reach what. Authentication, authorization models, privileged access, service credentials, and joiner-mover-leaver policy. Use this to design a permissions model, run an access review, reduce standing privilege, handle offboarding, set up SSO or MFA, manage service and machine credentials, or diagnose why permissions have sprawled."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: security

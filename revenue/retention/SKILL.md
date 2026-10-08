@@ -2,7 +2,7 @@
 name: retention
 description: "Diagnoses and reduces churn. Cancellation flows, save offers, failed-payment recovery, at-risk detection, and the product and service causes underneath. Use this when churn is rising or unexplained, to design a cancellation or win-back flow, to recover involuntary churn, to identify at-risk accounts before they leave, or to decide whether a retention problem is a product problem."
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), migrated for Hermes Agent by Humberto Bello
 license: MIT
 platforms: [linux, macos, windows]
 category: revenue
