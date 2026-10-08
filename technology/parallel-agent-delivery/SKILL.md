@@ -123,14 +123,14 @@ Reach for parallelism here first and freely.
 
 Prove the three preconditions before dispatch, in writing — especially disjointness, which is the one
 people assert rather than check. Record which rows were batched and which were serialized. Then
-review each returned result against its own brief, update the coordination table with any new
+review each returned result against its own brief before any of them are merged; a batch merged
+together hides which agent's result was wrong. Update the coordination table with any new
 contract/dependency information, and show that affected children received the revised contract
 before they resumed or were re-dispatched.
 
 For cross-department work, also show the commitment ledger entry, the provider's explicit
 accept/revise/reject response, and the brief or re-dispatch that returned the accepted or revised
 commitment to every affected consumer. If that return path is missing, the dependency is still open.
-A batch merged together hides which agent's result was wrong.
 
 ## Related
 

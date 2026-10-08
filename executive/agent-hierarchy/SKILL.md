@@ -95,8 +95,10 @@ A reviewer is a distinct delegated child, not a second pass by the producer or o
 6. A blocking finding goes back to the responsible builder for correction. After correction, spawn a
    **fresh reviewer child** and inspect the corrected artifact again. The producer cannot clear its
    own finding.
-7. Where the reviewer-class skill permits explicit executive risk acceptance, route that decision to
-   `enterprise/executive/chief-executive`; risk acceptance does not rewrite the reviewer's finding.
+7. If a blocking finding is to be accepted rather than corrected, treat it as an explicit risk
+   acceptance under `enterprise/pmo/dependency-and-risk-management` (a named accepter, recorded) and
+   route the decision to `enterprise/executive/chief-executive`. Risk acceptance does not rewrite the
+   reviewer's finding.
 
 Hermes delegated children are task-scoped agents with fresh conversations. This mode deliberately
 does not pretend to invoke a named persistent Hermes profile. Use the repository's per-department
@@ -179,3 +181,4 @@ for both modes; and any path deliberately left unowned, named as such.
 - `enterprise/technology/parallel-agent-delivery` — running the resulting roster in parallel.
 - `enterprise/security/security-architecture-review` — independent security review over the
   producer's underlying artifact.
+- `enterprise/pmo/dependency-and-risk-management` — explicit, named risk acceptance.
