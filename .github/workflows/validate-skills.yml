@@ -1,0 +1,42 @@
+name: Validate Hermes Skills
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**/SKILL.md"
+      - "**/SOUL.md"
+      - "**/README.md"
+      - "scripts/validate_hermes_skills.py"
+      - ".github/workflows/validate-skills.yml"
+  pull_request:
+    paths:
+      - "**/SKILL.md"
+      - "**/SOUL.md"
+      - "**/README.md"
+      - "scripts/validate_hermes_skills.py"
+      - ".github/workflows/validate-skills.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyyaml
+    - name: Validate skills against the Hermes spec
+      run: python scripts/validate_hermes_skills.py
+    - name: Print the system-prompt skill index
+      if: always()
+      continue-on-error: true
+      run: python scripts/validate_hermes_skills.py --index
