@@ -1,13 +1,15 @@
 # Henterprise — a virtual agentic organization for Hermes Agent
 
+release](https://img.shields.io/github/v/release/humbertobellor/henterprise)](https://github.com/humbertobellor/henterprise/releases/latest) [![License: MIT](https://img.shields.io/github/license/humbertobellor/henterprise)](LICENSE)
+
 Sixteen departments, 143 skills, and a soul for each department. A chief executive over the
 functions a company actually has: strategy, finance, product, technology, security, legal and risk,
 people, operations, and the revenue and demand engine.
 
-Migrated from [`cbrock84/headcount`](https://github.com/cbrock84/headcount) — an agent organization
+Derived from [`cbrock84/headcount`](https://github.com/cbrock84/headcount) — an agent organization
 built for Claude Code — and brought to the [Hermes Agent](https://hermes-agent.nousresearch.com)
 skill specification. MIT licensed, © 2026 Chris Brock. See [OUTPUT.md](OUTPUT.md) for exactly what
-the migration changed.
+the migration to Hermes Agent changed.
 
 ## Structure
 
