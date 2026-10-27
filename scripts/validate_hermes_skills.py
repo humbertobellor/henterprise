@@ -107,23 +107,9 @@ def lead_sentence(description: str) -> str:
 
 # ── Checks ─────────────────────────────────────────────────────────────────
 
-def check_skill(path: Path, known: Dict[str, Path]) -> Tuple[List[str], List[str]]:
-    """Return (errors, warnings) for one SKILL.md."""
+def _check_name(fm: Dict[str, Any], dir_name: str) -> List[str]:
+    """Validate the ``name`` key against the spec and its directory."""
     errors: List[str] = []
-    warnings: List[str] = []
-    text = path.read_text(encoding="utf-8")
-    fm, body, structural = parse_frontmatter(text)
-    errors.extend(structural)
-    if not fm:
-        return errors, warnings
-
-    skill_dir = path.parent
-    dir_name = skill_dir.name
-
-    for key in REQUIRED_KEYS:
-        if key not in fm:
-            errors.append(f"frontmatter: missing required key '{key}'")
-
     name = str(fm.get("name", ""))
     if not NAME_RE.match(name):
         errors.append(f"name: {name!r} does not match ^[a-z][a-z0-9_-]*$")
@@ -131,62 +117,83 @@ def check_skill(path: Path, known: Dict[str, Path]) -> Tuple[List[str], List[str
         errors.append(f"name: {len(name)} chars exceeds the {NAME_MAX}-char limit")
     if name != dir_name:
         errors.append(f"name: {name!r} does not equal its directory name {dir_name!r}")
+    return errors
 
+
+def _check_description(fm: Dict[str, Any]) -> Tuple[List[str], List[str]]:
+    """Validate ``description``; return (errors, warnings)."""
+    errors: List[str] = []
+    warnings: List[str] = []
     description = str(fm.get("description", "")).strip()
     if not description:
-        errors.append("description: empty")
-    else:
-        if len(description) > SKILL_LIST_DESC_LIMIT:
-            errors.append(
-                f"description: {len(description)} chars exceeds the "
-                f"{SKILL_LIST_DESC_LIMIT}-char skills_list limit"
-            )
-        lead = lead_sentence(description)
-        if not lead.endswith((".", "!", "?")):
-            errors.append("description: lead sentence is not period-terminated")
-        if len(lead) > SKILL_PROMPT_DESC_LIMIT - 3:
-            errors.append(
-                f"description: lead sentence is {len(lead)} chars; must be "
-                f"<= {SKILL_PROMPT_DESC_LIMIT - 3} so prompt-index truncation "
-                f"falls on a sentence boundary"
-            )
-        if len(description) > SKILL_PROMPT_DESC_LIMIT:
-            warnings.append(
-                f"description: {len(description)} chars — truncated to "
-                f"{SKILL_PROMPT_DESC_LIMIT} in the system-prompt index "
-                f"(deliberate; see OUTPUT.md)"
-            )
+        return ["description: empty"], warnings
+    if len(description) > SKILL_LIST_DESC_LIMIT:
+        errors.append(
+            f"description: {len(description)} chars exceeds the "
+            f"{SKILL_LIST_DESC_LIMIT}-char skills_list limit"
+        )
+    lead = lead_sentence(description)
+    if not lead.endswith((".", "!", "?")):
+        errors.append("description: lead sentence is not period-terminated")
+    if len(lead) > SKILL_PROMPT_DESC_LIMIT - 3:
+        errors.append(
+            f"description: lead sentence is {len(lead)} chars; must be "
+            f"<= {SKILL_PROMPT_DESC_LIMIT - 3} so prompt-index truncation "
+            f"falls on a sentence boundary"
+        )
+    if len(description) > SKILL_PROMPT_DESC_LIMIT:
+        warnings.append(
+            f"description: {len(description)} chars — truncated to "
+            f"{SKILL_PROMPT_DESC_LIMIT} in the system-prompt index "
+            f"(deliberate; see OUTPUT.md)"
+        )
+    return errors, warnings
 
+
+def _check_platforms(fm: Dict[str, Any]) -> List[str]:
+    """Validate the optional ``platforms`` list."""
     platforms = fm.get("platforms")
-    if platforms is not None:
-        if not isinstance(platforms, list) or not platforms:
-            errors.append("platforms: must be a non-empty list")
-        else:
-            bad = [p for p in platforms if p not in VALID_PLATFORMS]
-            if bad:
-                errors.append(f"platforms: unknown value(s) {bad}")
+    if platforms is None:
+        return []
+    if not isinstance(platforms, list) or not platforms:
+        return ["platforms: must be a non-empty list"]
+    bad = [p for p in platforms if p not in VALID_PLATFORMS]
+    return [f"platforms: unknown value(s) {bad}"] if bad else []
 
+
+def _check_metadata(fm: Dict[str, Any], known: Dict[str, Path]) -> List[str]:
+    """Validate the ``metadata.hermes`` mapping."""
+    errors: List[str] = []
     metadata = fm.get("metadata")
     hermes = metadata.get("hermes") if isinstance(metadata, dict) else None
     if not isinstance(hermes, dict):
-        errors.append("metadata: missing the 'hermes' mapping")
-    else:
-        tags = hermes.get("tags")
-        if not isinstance(tags, list) or not tags:
-            errors.append("metadata.hermes.tags: missing or empty")
-        if not str(hermes.get("category", "")).strip():
-            errors.append("metadata.hermes.category: missing")
-        for related in hermes.get("related_skills") or []:
-            if related not in known:
-                errors.append(f"metadata.hermes.related_skills: {related!r} does not exist")
+        return ["metadata: missing the 'hermes' mapping"]
+    tags = hermes.get("tags")
+    if not isinstance(tags, list) or not tags:
+        errors.append("metadata.hermes.tags: missing or empty")
+    if not str(hermes.get("category", "")).strip():
+        errors.append("metadata.hermes.category: missing")
+    for related in hermes.get("related_skills") or []:
+        if related not in known:
+            errors.append(f"metadata.hermes.related_skills: {related!r} does not exist")
+    return errors
 
+
+def _check_body(body: str) -> List[str]:
+    """Validate body size and required sections."""
+    errors: List[str] = []
     if len(body) > BODY_LIMIT:
         errors.append(f"body: {len(body)} chars exceeds the {BODY_LIMIT}-char limit")
     if "## When to Use" not in body:
         errors.append("body: missing the 'When to Use' section")
     if "## Verification" not in body:
         errors.append("body: missing the 'Verification' section")
+    return errors
 
+
+def _check_xrefs(text: str, body: str) -> List[str]:
+    """Validate ``enterprise/<dept>/<skill>`` links and flag legacy syntax."""
+    errors: List[str] = []
     for dept, skill in XREF_RE.findall(text):
         if not (ROOT / dept / skill / "SKILL.md").exists():
             errors.append(f"cross-reference: enterprise/{dept}/{skill} does not exist")
@@ -196,14 +203,36 @@ def check_skill(path: Path, known: Dict[str, Path]) -> Tuple[List[str], List[str
                 f"cross-reference: `{dept}:{skill}` is Claude-plugin syntax; "
                 f"rewrite as enterprise/{dept}/{skill}"
             )
+    return errors
 
-    for child in skill_dir.iterdir():
-        if child.is_dir() and child.name not in SUPPORT_DIRS:
-            errors.append(
-                f"layout: unexpected subdirectory {child.name!r} "
-                f"(support dirs are {sorted(SUPPORT_DIRS)})"
-            )
 
+def _check_layout(skill_dir: Path) -> List[str]:
+    """Reject subdirectories that are not Hermes support directories."""
+    return [
+        f"layout: unexpected subdirectory {child.name!r} "
+        f"(support dirs are {sorted(SUPPORT_DIRS)})"
+        for child in skill_dir.iterdir()
+        if child.is_dir() and child.name not in SUPPORT_DIRS
+    ]
+
+
+def check_skill(path: Path, known: Dict[str, Path]) -> Tuple[List[str], List[str]]:
+    """Return (errors, warnings) for one SKILL.md."""
+    text = path.read_text(encoding="utf-8")
+    fm, body, errors = parse_frontmatter(text)
+    if not fm:
+        return errors, []
+
+    errors.extend(f"frontmatter: missing required key '{key}'"
+                  for key in REQUIRED_KEYS if key not in fm)
+    errors.extend(_check_name(fm, path.parent.name))
+    desc_errors, warnings = _check_description(fm)
+    errors.extend(desc_errors)
+    errors.extend(_check_platforms(fm))
+    errors.extend(_check_metadata(fm, known))
+    errors.extend(_check_body(body))
+    errors.extend(_check_xrefs(text, body))
+    errors.extend(_check_layout(path.parent))
     return errors, warnings
 
 
@@ -235,6 +264,7 @@ def print_index(departments: List[Path]) -> int:
 
 
 def main(argv: List[str]) -> int:
+    """Validate the requested departments (or all) and return the exit status."""
     index_only = "--index" in argv
     argv = [a for a in argv if a != "--index"]
     departments = (

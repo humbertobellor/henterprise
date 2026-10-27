@@ -6,7 +6,7 @@ built for Claude Code — into a virtual agentic organization for
 `hermes/skills/enterprise/`.
 
 **Result:** 16 departments, 143 skills, 16 souls, 16 department READMEs, 4 support files carried
-verbatim, and a validator. `python3 scripts/validate-hermes-skills.py` reports **0 errors**.
+verbatim, and a validator. `python3 scripts/validate_hermes_skills.py` reports **0 errors**.
 
 Source is MIT licensed, © 2026 Chris Brock; every migrated skill preserves that attribution in its
 frontmatter.
@@ -19,7 +19,7 @@ frontmatter.
 hermes/skills/enterprise/
 ├── README.md                          org overview and installation
 ├── OUTPUT.md                          this report
-├── scripts/validate-hermes-skills.py  spec validator + index preview
+├── scripts/validate_hermes_skills.py  spec validator + index preview
 └── <department>/                      × 16
     ├── SOUL.md                        department persona (Hermes profile slot #1)
     ├── README.md                      coverage, skill table, install commands
@@ -193,7 +193,7 @@ a decision is genuinely the owner's it says so rather than deciding for them.
 
 ## 5. Verification
 
-`scripts/validate-hermes-skills.py` reproduces Hermes' own discovery walk (including the
+`scripts/validate_hermes_skills.py` reproduces Hermes' own discovery walk (including the
 support-directory and metadata-directory prune rules) and then checks each skill against the spec:
 
 - frontmatter starts at byte 0, closes with `\n---\n`, parses as a YAML mapping, no BOM
@@ -232,7 +232,7 @@ byte-identical. Longest skill body is 6,068 characters (`executive/agent-hierarc
 
 ### Prompt-index preview
 
-`python3 scripts/validate-hermes-skills.py --index` prints the skill index Hermes would build, with
+`python3 scripts/validate_hermes_skills.py --index` prints the skill index Hermes would build, with
 each description truncated exactly as the system prompt renders it, so the truncation is inspected
 rather than assumed:
 

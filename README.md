@@ -19,7 +19,7 @@ enterprise/
 │   ├── SOUL.md          persona for running this department as a Hermes profile
 │   ├── README.md        what it covers, and how to install it
 │   └── <skill>/SKILL.md
-└── scripts/validate-hermes-skills.py
+└── scripts/validate_hermes_skills.py
 ```
 
 Hermes discovers skills by walking for `SKILL.md`, so the extra nesting level is fine: a skill
@@ -111,7 +111,7 @@ personas staged for installation, not files Hermes picks up in place.
 ## Validating
 
 ```bash
-python3 scripts/validate-hermes-skills.py
+python3 scripts/validate_hermes_skills.py
 ```
 
 Checks every skill against the Hermes frontmatter contract, confirms `name` matches its directory,
@@ -119,7 +119,7 @@ resolves every `related_skills` entry and every `enterprise/<dept>/<skill>` cros
 enforces the layout. Pass department names to check a subset.
 
 ```bash
-python3 scripts/validate-hermes-skills.py --index
+python3 scripts/validate_hermes_skills.py --index
 ```
 
 Prints the skill index Hermes would build, with each description truncated at 60 characters exactly
