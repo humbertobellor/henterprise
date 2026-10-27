@@ -1,6 +1,6 @@
 # Henterprise — a virtual agentic organization for Hermes Agent
 
-[Latest release](https://img.shields.io/github/v/release/humbertobellor/henterprise)](https://github.com/humbertobellor/henterprise/releases/latest) [![License: MIT](https://img.shields.io/github/license/humbertobellor/henterprise)](LICENSE)
+[![Latest release](https://img.shields.io/github/v/release/humbertobellor/henterprise)](https://github.com/humbertobellor/henterprise/releases/latest) [![License: MIT](https://img.shields.io/github/license/humbertobellor/henterprise)](LICENSE)
 
 Sixteen departments, 143 skills, and a soul for each department. A chief executive over the
 functions a company actually has: strategy, finance, product, technology, security, legal and risk,
