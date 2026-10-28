@@ -79,7 +79,7 @@ full Hermes contract:
 name: chief-strategy-officer
 description: "Owns where the business plays and how it wins. Multi-year portfolio choices, …"
 version: 1.0.0
-author: Chris Brock (cbrock84), migrated for Hermes Agent
+author: Chris Brock (cbrock84), ported to Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
 category: corporate-strategy
